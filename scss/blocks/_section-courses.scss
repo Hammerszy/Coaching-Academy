@@ -1,0 +1,153 @@
+.section-courses {
+    padding: 50px 0 0 0;
+}
+
+.program-card {
+    border: 2px solid $dark-blue;
+    border-radius: 20px;
+    padding: 40px 40px;
+    margin-bottom: 20px;
+}
+
+.program-card__lev2 {
+    padding-bottom: 1px;
+    border-radius: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title__courses  {
+    margin-bottom: 20px;
+}
+
+.program___card-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cont__level {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cont__level2 {
+    margin-bottom: 0;
+}
+
+.program__level1 {
+    margin-left: 14px;
+    font-family: $font-secondary;
+    font-weight: 500;
+    font-size: 24px;
+    color: $dark-blue;
+    text-transform: uppercase;
+}
+
+.program-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    background-color: $light-gray;
+    border-radius: 45px;
+    width: 128px;
+    padding: 11px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+    margin-right: 12px;
+}
+
+.feature-item:hover {
+    background-color: #c5c7c9;
+}
+
+.feature-item {
+    img {
+        margin-right: 8px;
+    }
+}
+
+.title-models {
+    font-weight: 500;
+    font-size: 20px;
+    color: $dark-blue;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.title-lev1 {
+    font-weight: 500;
+    font-size: 18px;
+    color: $darker;
+    margin-bottom: 8px;
+}
+
+.program-list {
+    margin-bottom: 16px;
+}
+
+.program-list:last-child {
+    margin-bottom: 0;
+    margin-bottom: 24px;
+}
+
+.program-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.program-list__item {
+    p {
+        font-size: 18px;
+        color: $darker;
+        margin-left: 16px;
+        white-space: nowrap;
+    }
+}
+
+.block-price {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 30px;
+    color: $dark-blue;
+    margin-right: 16px;
+}
+
+.border {
+    border-right: 2px solid $dark-blue;
+}
+
+.cost {
+    font-weight: 500;
+    font-size: 30px;
+    color: $dark-blue;
+    margin-left: 16px;
+}
+
+.btn-join {
+    font-size: 20px;
+    color: $white;
+    background-color: $dark-blue;
+    display: block;
+    width: 216px;
+    padding: 14px 0;
+    border-radius: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease-in;
+}
+.btn-join:hover {
+    background-color: #114d88;
+}

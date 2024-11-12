@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: $font-main;
+    padding: 0;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1346px;
+    margin: 0 auto;
+
+    &--sm {
+        max-width: 1340px;
+        margin: 0 auto;
+    }
+}
+
+.title-2 {
+    font-family: $font-secondary;
+    font-weight: 500;
+    font-size: 42px;
+    color: $dark-blue;
+    text-transform: uppercase;
+}
+
+.arrow {
+    background-color: $dark-blue;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 18px;
+}
+
+.link__more {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $darker;
+}

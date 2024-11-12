@@ -1,0 +1,84 @@
+
+.nav-row {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list__link {
+    color: $darker;
+    padding-bottom: 16px;
+    transition: padding-top 0.3s ease-in;
+}
+
+.nav-list__link:hover {
+    color: $dark-blue;
+    padding-top: 5px;
+}
+
+.nav-list__link--active {
+    color: $dark-blue; 
+    position: relative;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.nav-list__link--active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 79px; 
+    height: 1px; 
+    background-color: $dark-blue; 
+    
+}
+
+.nav-list__home {
+    transition: all 0.3s ease-in;
+}
+
+.nav-list__link-img {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.btn-login {
+    font-size: 20px;
+    color: $white;
+    background-color: $dark-blue;
+    display: block;
+    width: 110px;
+    padding: 14px 0;
+    border-radius: 14px;
+    text-align: center;
+    margin-left: 48px;
+    transition: background-color 0.3s ease-in;
+}
+.btn-login:hover {
+    background-color: #2d5883;
+}

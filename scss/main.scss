@@ -1,0 +1,21 @@
+//base
+
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+//mixins 
+
+@import './base/mixin';
+
+//blocks
+
+@import './blocks/nav';
+@import './blocks/header';
+@import './blocks/section-benefits';
+@import './blocks/section-aboutUs';
+@import './blocks/section-courses';
+@import './blocks/contact-schedule';
+@import './blocks/section-testimonials';
+@import './blocks/section-faq';
+@import './blocks/footer';

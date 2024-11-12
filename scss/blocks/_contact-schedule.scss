@@ -1,0 +1,55 @@
+.contact-schedule {
+    background-color: $dark-blue;
+    padding: 50px 0;
+}
+
+.schedule-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-schedule {
+    color: $white;
+    max-width: 658px;
+    margin-bottom: 4px;
+}
+
+.txt-schedule {
+    font-size: 18px;
+    color: $white;
+    max-width: 568px;
+    line-height: 1.5em;
+}
+
+.form-schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    font-size: 18px;
+    background-color: $white;
+    color: $darker;
+    width: 658px;
+    padding: 18px 14px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.form-input::placeholder {
+    color: $darker;
+}
+
+.btn-schedule {
+    font-family: $font-secondary;
+    font-size: 20px;
+    color: $dark-blue;
+    background-color: $white;
+    display: block;
+    width: 213px;
+    padding: 14px 0;
+    border-radius: 14px;
+    transition: background-color 0.3s ease-in;
+}
+.btn-schedule:hover {
+    background-color: #cacaca;
+}

@@ -1,0 +1,34 @@
+.footer {
+    padding: 32px 0;
+}
+
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: $dark-blue;
+    }
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list__item {
+    margin-left: 32px;
+}
+
+.footer-nav__link {
+    font-weight: 500;
+    color: $darker;
+    transition: color 0.3s ease-in;
+}
+
+.footer-nav__link {
+    &:hover {
+        color: #616161;
+    }
+}
